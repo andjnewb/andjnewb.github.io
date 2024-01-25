@@ -1,11 +1,12 @@
 ---
 layout: page
 title: "DaD Analytics"
-permalink: /DaD_Analytics
+permalink: /DaD_Analytics_Info
 ---
 ## Examples
 ![mysql_example](https://github.com/andjnewb/andjnewb.github.io/assets/71988305/9fb707cb-2b76-401d-98e4-f4af9d3e561e)
 ![Capture](https://github.com/andjnewb/andjnewb.github.io/assets/71988305/bce7abe3-1494-43e5-8fdb-408e7dc64853)
+# The current frontend for this project can found at https://andjnewb.github.io/DaD_Analytics/  
 
 ## Inspirations 
 <p>I started this project because I identified a major issue with the player market for items in Dark and Darker. The vast majority of item prices were pure speculation.
