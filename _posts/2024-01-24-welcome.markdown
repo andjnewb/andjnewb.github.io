@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Welcome to my page!"
+date:   2024-01-24 18:13:09 -0600
+categories: other
+---
+Thank your for visiting! Here you will find posts about the various projects I am currently working on. This site is also one of these projects.
+
+Check out [my_github] for more information on my current activity.
+
+[my_github]: https://github.com/andjnewb
+
