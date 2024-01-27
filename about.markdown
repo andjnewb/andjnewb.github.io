@@ -17,3 +17,6 @@ permalink: /about/
 
 
 
+![IMG_1957](https://github.com/andjnewb/andjnewb.github.io/assets/71988305/3d470f4a-dbf3-4a4e-ae10-f1d00cba60f5)
+![IMG_3772](https://github.com/andjnewb/andjnewb.github.io/assets/71988305/5939e81c-e254-4913-9bf1-cd30a2b1f735)
+![KIMG0314](https://github.com/andjnewb/andjnewb.github.io/assets/71988305/213c7879-b355-4657-8e94-d4a825b0d99c)
