@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "RDGEN"
+date:   2024-01-25
+categories: projects
+---
+# Current State
+![rdgen](https://github.com/andjnewb/andjnewb.github.io/assets/71988305/9d8c69ee-d5ec-4be6-a030-a17171fb6361) 
+
+Right now, I can use a BSP-ish algorithm to generate sub-dungeons and rooms within those sub-dungeons. I can also connect each leaf to its sibling.
+
+# Issues 
+-If you don't give the algorithm enough coordinates to work with, and split it too much, you start getting "unwrap on none" errors because rooms smaller than
+1 don't make sense.  
+-I need a way to connect each sub-dungeon that is a parent of the leaves.  
+-The way I did the room connecting was probably overly-complex.  
+-Everything in the tree view except the coordinates is incorrect, due to the way ptree wants to recursively consume the tree and our method of getting sub-trees.   
+
+#Interesting Bits  
+-The BSP isn't stored in a typical linked-list, since this is Rust and doing so would required me to go crazy with RfCell and a bunch of other junk. Instead, it is stored in an array.  
+
+-Nodes contain "references", which are really just indexes, to their child nodes. Thanks to rust's Option, these can be none.  
+
+-Nodes also contain the coordinates for the sub-dungeon they represent, coordinates for the rooms within them(though it will only have a room if it's a leaf), the index of where the node is in the array,
+and other misc. stuff.  
+
+#Types  
+
+![types](https://github.com/andjnewb/andjnewb.github.io/assets/71988305/ecc941ff-9103-4544-af0a-c1743e2e102d)
+
+[my_github]: https://github.com/andjnewb
