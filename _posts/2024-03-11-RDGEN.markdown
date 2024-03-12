@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "RDGEN"
-date:   2024-01-25
+date:   2024-03-12
 categories: projects
 ---
 # Current State
